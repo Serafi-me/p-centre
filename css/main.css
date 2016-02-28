@@ -55,20 +55,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+        body{
+            background-color: #FFFFFF;
+            font-family: "OpenSans";
+            font-size: 16px;
+            line-height: 22px
+        }
         header{
-            background-color: #FFFFFF
+            background-color: #FFFFFF;
+            background-image: url("../pictures/background.png");
         }
         .slider{
             background-color: #23acc0
         }
         .intro{
-            background-color: #FFFFFF
         }
         .services{
             background-color: #a1c741
         }
         .trainings{
-            background-color: #ffffff
+
         }
         .training{
 
@@ -77,19 +83,19 @@ textarea {
             background-color: #da7f2f
         }
         .corporate-algorithm{
-            background-color: #ffffff
+
         }
         .about-trainer{
             background-color: #398a83
         }
         .map{
-            background-color: #ffffff
+
         }
         .call-center{
             background-color: #97478b
         }
         .express-marketing{
-            background-color: #ffffff
+
         }
         .business-consulting{
             background-color: #2873ac
@@ -118,12 +124,6 @@ textarea {
             display: inline-block;
             text-align: left;
             padding-right: 50px;
-        }
-        .head{
-            margin-left: auto;
-            margin-right: auto;
-            width: 940px;
-            background-image: url("pictures/background.png");
         }
 
 
