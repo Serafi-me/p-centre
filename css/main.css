@@ -55,6 +55,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+        li {
+        list-style-type: none
+        }
         body{
             background-color: #FFFFFF;
             font-family: "OpenSans";
@@ -62,17 +65,36 @@ textarea {
             line-height: 22px
         }
         header{
-            background-color: #FFFFFF;
             background-image: url("../pictures/background.png");
+            background-position: right; ; 
+            background-repeat: no-repeat;
+            height: 348px;
         }
         .slider{
             background-color: #23acc0
         }
         .intro{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 16px;
+            color: #4a4a4a;
         }
         .services{
             background-color: #a1c741
         }
+        .services-list-block{
+            color: #ffffff;
+            text-align: center;
+            padding-top: 50px;
+            font-family: "OpenSans-Bold";
+            font-size: 30px;
+            line-height: 1.5;
+        }
+        .services-list{
+            display: inline-block;
+        }
+
         .trainings{
 
         }
@@ -110,19 +132,23 @@ textarea {
         }
         .slogan{
             text-align: center;
+            padding-top: 130px;
+            font-size: 28px;
+            font-family: "OpenSans-Bold";
+            line-height: 18px;
         }
         .logo{
             display: inline-block;
         }
         .contacts{
-            display: inline-block;
-            padding-left: 450px;
+
         }
         .contacts-container{
+            text-align: left;
             height: 40px;
             width: 143px;
             display: inline-block;
-            text-align: left;
+            padding-left: 500px;
             padding-right: 50px;
         }
 
