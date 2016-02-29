@@ -60,7 +60,7 @@ textarea {
         }
         body{
             background-color: #FFFFFF;
-            font-family: "OpenSans";
+            font-family: 'Open Sans', sans-serif;
             font-size: 16px;
             line-height: 22px
         }
@@ -150,6 +150,24 @@ textarea {
             display: inline-block;
             padding-left: 500px;
             padding-right: 50px;
+        }
+        .word-trainings{
+            text-align: center;
+            font-family: "OpenSans-Bold";
+            font-size: 36px;
+            color: #1a5088;
+        }
+        .motivation{
+            text-align: left;
+            font-size: 22px;
+            color: #1a5088;
+            font-family: "OpenSans-Bold";
+        }
+        .trainings-info{
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: #2c2c2c;
         }
 
 
