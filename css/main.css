@@ -56,7 +56,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
         li {
-        list-style-type: none
+        list-style-type: none;
+        
         }
         body{
             background-color: #FFFFFF;
@@ -69,6 +70,9 @@ textarea {
             background-position: right; ; 
             background-repeat: no-repeat;
             height: 348px;
+        }
+        ul{
+            width: 400px;
         }
         .slider{
             background-color: #23acc0
@@ -89,15 +93,29 @@ textarea {
             padding-top: 50px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 700;
-            font-weight: bold;
             font-size: 30px;
             line-height: 1.5;
         }
-        .services-list{
+        .services-list-img{
             display: inline-block;
             font-family: 'Open Sans', sans-serif;
             font-size: 18px;
             color: #414141;
+        }
+        .services-list{
+            display: inline-block;
+            font-size: 18px;
+            width: 400px;
+            margin-top: 35px;
+            margin-bottom: 70px;
+        }
+        .services-list-text{
+            display: inline-block;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            color: #414141;
+            width: 247px;
+
         }
 
         .trainings{
@@ -190,6 +208,7 @@ textarea {
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
         }
 
 
