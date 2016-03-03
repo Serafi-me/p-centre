@@ -71,9 +71,6 @@ textarea {
             background-repeat: no-repeat;
             height: 348px;
         }
-        ul{
-            width: 400px;
-        }
         .slider{
             background-color: #23acc0
         }
@@ -84,40 +81,64 @@ textarea {
             font-size: 16px;
             color: #4a4a4a;
         }
-        .services{
-            background-color: #a1c741
+
+        /* --------- Styles for block SERVICES --------- */
+        .services {
+            background-color: #a1c741;
+            padding: 50px 0 40px;
         }
-        .services-list-block{
+
+        .services h1 {
             color: #ffffff;
-            text-align: center;
-            padding-top: 50px;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 700;
             font-size: 30px;
+            font-weight: bold;
             line-height: 1.5;
-        }
-        .services-list-img{
-            display: inline-block;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 18px;
-            color: #414141;
-        }
-        .services-list{
-            display: inline-block;
-            font-size: 18px;
-            width: 400px;
-            margin-top: 35px;
-            margin-bottom: 70px;
-        }
-        .services-list-text{
-            display: inline-block;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 18px;
-            color: #414141;
-            width: 247px;
-
+            margin: 0; /* Ovewriting default styles */
+            padding-bottom: 35px;
+            text-align: center;
         }
 
+        .services ul {
+            margin: auto;
+            padding: 0; /* Ovewriting default styles */
+            width: 900px;
+        }
+
+        .services li {
+            cursor: pointer; /* Ovewriting default styles */
+            display: inline-block;
+            margin-bottom: 30px;
+            vertical-align: middle;
+            width: 450px;
+        }
+
+        .services a {
+            color: #414141; /* Ovewriting default styles */
+            display: block;
+            font-size: 18px;
+            text-decoration: none; /* Ovewriting default styles */
+        }
+
+        .services a:hover {
+            color: #ffffff;
+        }
+
+        .services img {
+            padding-right: 20px;
+            vertical-align: baseline; /* TODO: read about "vertical-align" rule */
+        }
+        
+        .services p {
+            display: inline-block;
+            margin: 0;
+            padding-right: 50px;
+            padding-top: 10px;
+            vertical-align: top;
+            width: 300px;
+        }
+
+
+        /* --------- Styles for block TRAININGS --------- */
         .trainings{
 
         }
