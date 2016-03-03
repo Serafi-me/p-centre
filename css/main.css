@@ -71,6 +71,10 @@ textarea {
             background-repeat: no-repeat;
             height: 348px;
         }
+        hr{
+            background-image: url("../pictures/line.png");
+            background-repeat: repeat;
+        }
         .slider{
             background-color: #23acc0
         }
@@ -219,6 +223,8 @@ textarea {
             font-family: 'Open Sans', sans-serif;
             font-size: 16px;
             color: #2c2c2c;
+            display: inline-block;
+            width: 610px;
         }
         .button-application{
             width: 190px;
@@ -226,12 +232,54 @@ textarea {
             background-color: #da7f2f;
             border: none;
             color: white;
-            padding: 15px 32px;
+            padding: auto;
             text-align: center;
             text-decoration: none;
             font-family: 'Open Sans', sans-serif;
-        }
+            font-size: 16px;
+            font-weight: 700;
 
+        }
+        .trenings-photo{
+            display: inline-block;
+            vertical-align: text-bottom;
+
+        }
+        .advice{
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            color: #ffffff;
+            padding-top: 40px;
+
+        }
+        .manager-text{
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 40px;
+        }
+        .advice-image{
+            padding-top: 31px;
+            padding-bottom: 70px; 
+            text-align: center; 
+        }
+        .algorithm-list{
+            list-style-type: decimal;
+            font-size: 16px;
+            color: #3c3c3c;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .algorithm-phrase{
+            text-align: center;
+            font-size: 24px;
+            color: #1a5088;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+
+        }
 
 
 
