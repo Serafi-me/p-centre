@@ -157,9 +157,9 @@ textarea {
 
         .contacts {
             position: absolute;
-            right: 20px;
+            right: -30px;
             text-align: right;
-            top: 15px;
+            top: -30px;
         }
             
         .contacts a {
@@ -341,9 +341,21 @@ textarea {
             color: white;
         }
 
-        .about-trainer img {
+        .about-trainer-img {
             float: right;
             padding-left: 80px;
+        }
+
+        .about-trainer hr {
+            width: 137px;
+        }
+
+        .about-trainer-links {
+            margin-right: 35px;
+        }
+
+        .mb35 {
+            margin-bottom: 35px;
         }
 
         /* --------- Styles for block MAP --------- */
@@ -403,6 +415,7 @@ textarea {
         .business-consulting img {
             float: right;
             padding-left: 80px;
+            padding-bottom: 35px;
         }
 
         .business-consulting .button {
@@ -414,6 +427,7 @@ textarea {
         /* --------- Styles for block FOOTER --------- */
         footer {
             padding: 50px 0;
+            background: url("../img/f-pattern.png") no-repeat bottom right;
         }
 
         footer ul {
@@ -425,13 +439,22 @@ textarea {
             padding-left: 10px;
         }
 
+        footer a {
+            color: black;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: black;
+        }
+
         footer .address {
-            width: 400px;
             display: inline-block;
         }
 
         footer .f-logo {
             height: 50px;
+            margin-bottom: 35px
         }
 
 
