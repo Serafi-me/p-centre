@@ -99,6 +99,10 @@ textarea {
             margin-top: 50px;
         }
 
+        .button:hover {
+            text-decoration: none;
+        }
+
         .center {
             margin-left: auto;
             margin-right: auto;
@@ -275,7 +279,7 @@ textarea {
 
         .trainings h2,
         .trainings h3 {
-            color: #1A5088
+            color: #1A5088;
         }
 
         .trainings h3 {
@@ -286,11 +290,6 @@ textarea {
             padding: 50px 0;
         }        
 
-/*        .training img {
-            float: right;
-            padding-left: 30px;
-        }*/
-
         .training-button {
             padding: 10px 35px;
             text-decoration: none;
@@ -299,6 +298,12 @@ textarea {
             margin-top: 25px;
             background: #DA7F2F;
             color: white;
+        }
+
+        .training-button:hover {
+            background-color: #1A5088;
+            color:white;
+            text-decoration: none;
         }
 
         a.learn-more {
@@ -332,6 +337,12 @@ textarea {
         .corporate-algorithm .button {
             background: #da7f2f;
             color: white;
+        }
+
+        .corporate-algorithm .button:hover {
+            background-color: #1A5088;
+            color:white;
+            text-decoration: none;
         }
 
         /* --------- Styles for block ABOUT-TRAINER --------- */
