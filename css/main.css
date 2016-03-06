@@ -216,19 +216,19 @@ textarea {
             color: #ffffff;
         }
 
-        .services ul {
+        /*.services ul {
             margin: auto;
-            padding: 0; /* Ovewriting default styles */
+            padding: 0;
             width: 900px;
-        }
+        }*/
 
         .services li {
-            cursor: pointer; /* Ovewriting default styles */
+            cursor: pointer; 
             display: inline-block;
             margin-bottom: 20px;
             padding: 15px 0 15px 100px;
             vertical-align: middle;
-            width: 450px;
+            /*width: 450px;*/
             min-height: 80px;
         }
 
@@ -243,18 +243,13 @@ textarea {
             color: #ffffff;
         }
 
-        .services img {
-            padding-right: 20px;
-            vertical-align: baseline; /* TODO: read about "vertical-align" rule */
-        }
-        
-        .services p {
+        /*.services p {
             display: inline-block;
             margin: 0;
             padding-top: 10px;
             vertical-align: top;
             width: 300px;
-        }
+        }*/
 
         .services-trainigs {
             background: url("../img/trainigs.png") no-repeat center left;
@@ -291,10 +286,10 @@ textarea {
             padding: 50px 0;
         }        
 
-        .training img {
+/*        .training img {
             float: right;
             padding-left: 30px;
-        }
+        }*/
 
         .training-button {
             padding: 10px 35px;
