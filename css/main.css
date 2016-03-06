@@ -302,7 +302,7 @@ textarea {
         }
 
         a.learn-more {
-            background: url("../img/docs.png") no-repeat bottom right;
+            background: url("../img/docs.svg") no-repeat bottom right;
             color: black;
             padding-right: 45px;
             text-decoration: none;
@@ -348,7 +348,7 @@ textarea {
 
         /* --------- Styles for block MAP --------- */
         .map {
-            padding: 50px 0 70px;
+            padding-top: 50px;
         }
 
         .map h2 {
