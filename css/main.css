@@ -298,11 +298,14 @@ textarea {
             margin-top: 25px;
             background: #DA7F2F;
             color: white;
+            border: 1px solid #da7f2f;
+
         }
 
         .training-button:hover {
-            background-color: #1A5088;
-            color:white;
+            background-color: white;
+            color: #da7f2f;
+            border: 1px solid #da7f2f;
             text-decoration: none;
         }
 
@@ -337,12 +340,13 @@ textarea {
         .corporate-algorithm .button {
             background: #da7f2f;
             color: white;
+            border: 1px solid #da7f2f;
         }
 
         .corporate-algorithm .button:hover {
-            background-color: #1A5088;
-            color:white;
-            text-decoration: none;
+            background-color: white;
+            color: #da7f2f;
+            border: 1px solid #da7f2f;
         }
 
         /* --------- Styles for block ABOUT-TRAINER --------- */
@@ -389,6 +393,13 @@ textarea {
         .call-center .button {
             color: #97478b;
             background: white;
+            border: 1px solid white;
+        }
+
+        .call-center .button:hover {
+            color: white;
+            background: #97478b;   
+            border: 1px solid white;
         }
 
         .call-center img {
@@ -408,7 +419,14 @@ textarea {
 
         .express-marketing .button {
             background: #1a5088;
+            border: 1px solid #1a5088;
             color: white;
+        }
+
+        .express-marketing .button:hover {
+            border: 1px solid #1a5088;
+            background: white;
+            color: #1a5088;
         }
 
 
@@ -432,6 +450,13 @@ textarea {
         .business-consulting .button {
             background: white;
             color: #2873ac;
+            border: 1px solid white;
+        }
+
+        .business-consulting .button:hover {
+            border: 1px solid white;
+            background: #2873ac;
+            color: white;
         }
 
 
