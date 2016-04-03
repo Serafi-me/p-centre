@@ -302,11 +302,17 @@ textarea {
 
         }
 
-        .training-button:hover {
+        .training-button:hover,
+        .training-button:active {
             background-color: white;
             color: #da7f2f;
             border: 1px solid #da7f2f;
             text-decoration: none;
+        }
+
+        .training-images {
+            width: 100%;
+            padding-bottom: 20px;
         }
 
         a.learn-more {
