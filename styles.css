@@ -1315,23 +1315,23 @@ hr {
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-.bx-wrapper .bx-prev {
+/*.bx-wrapper .bx-prev {
     left: 10px;
     background: url(images/controls.png) no-repeat 0 -32px;
-}
+}*/
 
-.bx-wrapper .bx-next {
+/*.bx-wrapper .bx-next {
     right: 10px;
     background: url(images/controls.png) no-repeat -43px -32px;
-}
+}*/
 
-.bx-wrapper .bx-prev:hover {
+/*.bx-wrapper .bx-prev:hover {
     background-position: 0 0;
 }
 
 .bx-wrapper .bx-next:hover {
     background-position: -43px 0;
-}
+}*/
 
 .bx-wrapper .bx-controls-direction a {
     position: absolute;
@@ -1726,8 +1726,7 @@ hr {
         }
 
         .about-trainer-img {
-            float: right;
-            padding-left: 80px;
+            width: 100%;
         }
 
         .about-trainer hr {
