@@ -1443,12 +1443,12 @@ hr {
             border: none;
             margin: 0;
             height: 8px;
-            background-image: url("../img/line.png");
+            background-image: url("img/line.png");
             background-repeat: repeat-x;
         }
 
         hr.white {
-            background-image: url("../img/line-white.png");
+            background-image: url("img/line-white.png");
         }
 
         /* add */
@@ -1515,7 +1515,7 @@ hr {
 
         /* --------- Styles for block HEADER --------- */
         header {
-            background-image: url("../pictures/background.png");
+            background-image: url("img/background.png");
             background-position: right; 
             background-repeat: no-repeat;
             padding: 50px 0 70px;
@@ -1619,19 +1619,19 @@ hr {
         }*/
 
         .services-trainigs {
-            background: url("../img/trainigs.png") no-repeat center left;
+            background: url("img/trainigs.png") no-repeat center left;
         }
 
         .services-marketing {
-            background: url("../img/marketing.png") no-repeat center left;   
+            background: url("img/marketing.png") no-repeat center left;   
         }
 
         .services-call-center {
-            background: url("../img/services-call-center.png") no-repeat center left;
+            background: url("img/services-call-center.png") no-repeat center left;
         }
 
         .services-consulting {
-            background: url("../img/business-consulting.png") no-repeat center left;
+            background: url("img/business-consulting.png") no-repeat center left;
         }
 
 
@@ -1679,7 +1679,7 @@ hr {
         }
 
         a.learn-more {
-            background: url("../img/docs.svg") no-repeat bottom right;
+            background: url("img/docs.svg") no-repeat bottom right;
             color: black;
             padding-right: 45px;
             text-decoration: none;
@@ -1836,7 +1836,7 @@ hr {
         /* --------- Styles for block FOOTER --------- */
         footer {
             padding: 50px 0;
-            background: url("../img/f-pattern.png") no-repeat bottom right;
+            background: url("img/f-pattern.png") no-repeat bottom right;
         }
 
         footer ul {
