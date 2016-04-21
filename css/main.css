@@ -99,6 +99,10 @@ textarea {
             margin-top: 50px;
         }
 
+        .button:hover {
+            text-decoration: none;
+        }
+
         .center {
             margin-left: auto;
             margin-right: auto;
@@ -159,7 +163,7 @@ textarea {
             position: absolute;
             right: 20px;
             text-align: right;
-            top: 15px;
+            top: 20px;
         }
             
         .contacts a {
@@ -275,7 +279,7 @@ textarea {
 
         .trainings h2,
         .trainings h3 {
-            color: #1A5088
+            color: #1A5088;
         }
 
         .trainings h3 {
@@ -286,11 +290,6 @@ textarea {
             padding: 50px 0;
         }        
 
-/*        .training img {
-            float: right;
-            padding-left: 30px;
-        }*/
-
         .training-button {
             padding: 10px 35px;
             text-decoration: none;
@@ -299,10 +298,25 @@ textarea {
             margin-top: 25px;
             background: #DA7F2F;
             color: white;
+            border: 1px solid #da7f2f;
+
+        }
+
+        .training-button:hover,
+        .training-button:active {
+            background-color: white;
+            color: #da7f2f;
+            border: 1px solid #da7f2f;
+            text-decoration: none;
+        }
+
+        .training-images {
+            width: 100%;
+            padding-bottom: 20px;
         }
 
         a.learn-more {
-            background: url("../img/docs.png") no-repeat bottom right;
+            background: url("../img/docs.svg") no-repeat bottom right;
             color: black;
             padding-right: 45px;
             text-decoration: none;
@@ -332,6 +346,13 @@ textarea {
         .corporate-algorithm .button {
             background: #da7f2f;
             color: white;
+            border: 1px solid #da7f2f;
+        }
+
+        .corporate-algorithm .button:hover {
+            background-color: white;
+            color: #da7f2f;
+            border: 1px solid #da7f2f;
         }
 
         /* --------- Styles for block ABOUT-TRAINER --------- */
@@ -341,14 +362,30 @@ textarea {
             color: white;
         }
 
-        .about-trainer img {
+        .about-trainer-img {
             float: right;
             padding-left: 80px;
         }
 
+        .about-trainer hr {
+            width: 137px;
+        }
+
+        .about-trainer-links {
+            margin-right: 35px;
+        }
+
+        .about-trainer-links--intro {
+            margin: 15px;
+        }
+
+        .mb35 {
+            margin-bottom: 35px;
+        }
+
         /* --------- Styles for block MAP --------- */
         .map {
-            padding: 50px 0 70px;
+            padding-top: 50px;
         }
 
         .map h2 {
@@ -366,6 +403,13 @@ textarea {
         .call-center .button {
             color: #97478b;
             background: white;
+            border: 1px solid white;
+        }
+
+        .call-center .button:hover {
+            color: white;
+            background: #97478b;   
+            border: 1px solid white;
         }
 
         .call-center img {
@@ -385,7 +429,14 @@ textarea {
 
         .express-marketing .button {
             background: #1a5088;
+            border: 1px solid #1a5088;
             color: white;
+        }
+
+        .express-marketing .button:hover {
+            border: 1px solid #1a5088;
+            background: white;
+            color: #1a5088;
         }
 
 
@@ -403,17 +454,26 @@ textarea {
         .business-consulting img {
             float: right;
             padding-left: 80px;
+            padding-bottom: 35px;
         }
 
         .business-consulting .button {
             background: white;
             color: #2873ac;
+            border: 1px solid white;
+        }
+
+        .business-consulting .button:hover {
+            border: 1px solid white;
+            background: #2873ac;
+            color: white;
         }
 
 
         /* --------- Styles for block FOOTER --------- */
         footer {
             padding: 50px 0;
+            background: url("../img/f-pattern.png") no-repeat bottom right;
         }
 
         footer ul {
@@ -425,13 +485,22 @@ textarea {
             padding-left: 10px;
         }
 
+        footer a {
+            color: black;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: black;
+        }
+
         footer .address {
-            width: 400px;
             display: inline-block;
         }
 
         footer .f-logo {
             height: 50px;
+            margin-bottom: 35px
         }
 
 
@@ -439,8 +508,14 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 35em) {
+    .slider {
+        display: none;
+    }
 
+    .contacts {
+        position: relative;
+    }
 }
 
 @media print,
