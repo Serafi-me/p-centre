@@ -1754,6 +1754,10 @@ hr {
             color: #1a5088;
         }
 
+        .map-container {
+          height: 600px;
+        }
+
 
         /* --------- Styles for block CALL-CENTER --------- */
         .call-center {
@@ -1829,6 +1833,11 @@ hr {
             border: 1px solid white;
             background: #2873ac;
             color: white;
+        }
+
+        /* --------- Styles for block Yandex Payment --------- */
+        .yandex-payment {
+          padding: 50px 0 70px;
         }
 
 
